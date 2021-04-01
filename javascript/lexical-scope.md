@@ -10,6 +10,8 @@ Là phạm vi một identifier có thể truy cập được
 
 - Mỗi khi scope có `Scope Manager`, quản lý các chứa các identifier được khai báo trong scope đó. Mỗi lần thực thi scope sẽ khởi tạo một instance `Scope Manager` hoàn toàn riêng biệt.
 
+- Tham chiếu (reference - không phải khai báo mới) đến một identifier nếu identifier đã được khai báo trong `scope` hiện tại hoặc trong những `scope` chứa scope hiện tại
+
 - Mỗi khi trong một `scope` không tìm thấy một identifier (không tính trường hợp khởi tạo identifier mới thông qua keyword `var` hoặc `function`), Compiler sẽ tiếp tục tìm ở scope cha của scope hiện tại, tìm cho đến khi ra thì thôi. Không tìm ra, throw Error (tùy, có thể identifier undefined hoặc identifier undeclared).
 
 - Cẩn thận trường hợp variable là target và không dùng `strict mode`
