@@ -9,3 +9,7 @@ Một số rule cần cố gắng tuân thủ [[References](https://dev.to/jbran
 - MỗI post giới hạn trong khoảng 200 từ.
 - Không tốn quá nhiều thời gian.
 - Cố gắng hoàn thành mỗi ngày.
+
+## TODO
+
+- [ ] Keyword `with`, `eval` đối với `strict mode` trong Javascript. Vấn đề secure trong `strict mode`
